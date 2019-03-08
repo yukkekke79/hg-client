@@ -1,0 +1,53 @@
+h3.theme {
+padding: 0.25em 0.75em;
+color: #494949;
+background: transparent;
+border-left: solid 8px #eee598;
+margin-bottom: 24px;
+}
+
+span.hosoku {
+	color: red;
+	padding-left: 8px;
+	font-size: 11px;
+}
+
+.footer-text{
+     text-align: center;
+     margin:30px;
+    }
+
+.footer-text a{
+	margin-left: 20px;
+	margin-bottom: 15px;
+}
+
+span.condition {
+	margin-left: 10px;
+	margin-right: 7px;
+}
+
+span.conditions {
+	margin-right: 30px;
+}
+
+span.obi {
+	position: left;
+	margin-top: auto;
+}
+
+h5.read {
+	padding: 0.25em 0.75em;
+	margin-bottom: 25px;
+	background: transparent;
+	border-left: solid 4px #cfcfcf;
+	border-bottom: solid 1px #cfcfcf;
+}
+
+h4.read {
+	padding: 0.25em 0.75em;
+	margin-bottom: 25px;
+	background: transparent;
+	border-left: solid 4px #cfcfcf;
+	border-bottom: solid 1px #cfcfcf;
+}

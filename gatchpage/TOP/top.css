@@ -1,0 +1,157 @@
+p,button{
+	display: inline-block;
+}
+body{
+	background-color: #f4f4f4;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+/*----------------------------himajin-----------------------*/
+.himajin-container{
+	width: 96%;
+	margin: 0 2%;
+	padding: 0;
+}
+.icon{
+	width: 5%;
+	height: 283px;
+	line-height: 150px;
+	color: #efe597;
+	padding: 0;
+	float: left;
+}
+.himajin-container i{
+	font-size: 70px;
+}
+#himajin {
+	/*width: 35%;*/
+	width: 90%;
+	background-color: #f4f4f4;
+	margin: 0;
+/*	position: fixed;
+		bottom: 45%;
+		left: 5%;
+		right: 5%;
+	z-index: 10;*/
+	text-align: center;
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+	border-bottom: 2px solid black;
+	padding-bottom: 30px;
+	float: left;
+}
+#himajin::-webkit-scrollbar{
+	display: none;
+}
+#himajin div{
+	width: 15%;
+	display: inline-block;
+    padding:0 20px;
+    vertical-align: top;
+}
+.himajin-pic{
+	width: 100px;
+	height: 100px;
+	display: block;
+	border-radius: 100%;
+}
+.himajin-cond{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+		top: 70px;
+		left: 70px;
+}
+.tochat .himajin-pic:hover{
+	border: 4px solid #f0ebcb;
+}
+.tochat .himajin-pic:active{
+	position: relative;
+		top: 3px;
+}
+.himajin-name{
+	display: block;
+	font-weight: bold;
+	font-size: 20px;
+}
+.himajin-tub{
+	display: block;
+	word-wrap: break-word;
+	white-space: normal;
+}
+#himajin .tochat{
+	display: inline-block;
+	margin: 10px;
+	padding: 0;
+	border: none;
+	outline: none;
+	background: transparent;
+	position: relative;
+}
+/*----------------------------gatch--------------------------------*/
+#gatch {
+	width: 86%;
+	text-align: center;
+	margin: -20px auto 30px;
+}
+#gatch .container{
+	width: 100%;
+	margin: 0 auto;
+}
+#gatch .row{
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+}
+#gatch .tochat{
+	padding: 0;
+	border: none;
+	outline: none;
+	background: transparent;
+}
+#gatch form{
+	display: inline-block;
+	height: 100px;
+}
+#gatch .gatch-box:hover{
+	/*background-color: #33ff00;*/
+	background-color: #f0ebcb;
+}
+#gatch .tochat:active{
+	position: relative;
+		top: 3px;
+}
+
+.gatch-box{
+	width: 550px;
+	height: 128px;
+	background-color: #efe597;
+	box-sizing: border-box;
+	text-align: left;
+	margin-bottom: 50px;
+	border: 1px solid black;
+}
+.gatch-pic{
+	float: left;
+	width: 125px;
+	height: 125px;
+	padding: 10px;
+}
+.gatch-cond{
+	float: right;
+	width: 125px;
+	height: 125px;
+	padding: 10px;
+}
+.gatch-tubuyaki{
+	font-size: 20px;
+}
+.gatch-box p {
+	margin-top: 5px;
+	margin-left: 30px;
+	font-size: 25px;
+}
+.gatch-box p span{
+	font-size: 15px;
+}
